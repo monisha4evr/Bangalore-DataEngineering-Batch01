@@ -1,0 +1,52 @@
+- Structured Programming Language 
+- high-level Language 
+- general-purpose 
+- intrepreter 
+
+Feature python: 
+- Easy to Learn and Understand 
+- simple Syntax 
+- large number of Library 
+
+
+Rules: 
+- Extension to save  (.py) 
+- case sensitive 
+- we dont use ; 
+- we dont use {} instead we identation 
+- dynamic typing 
+
+commentLine 
+
+#  singleline commandline 
+ multiple Line ''' This is Eample of 
+ multiline Commandline
+ '''
+
+
+identifier:
+------------
+used to identify variable, function 
+
+rules: 
+-----
+1. Cannot start with numbers 
+2. whitespace character not allowed , instead use underscore 
+3. can start with underscore 
+4. cannot allow special character 
+5. cannot use Reserved keyword  
+
+
+variable:
+ it store value 
+
+
+a= "Apple"
+
+
+
+
+ 
+
+
+

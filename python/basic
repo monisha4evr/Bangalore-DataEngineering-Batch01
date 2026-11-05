@@ -1,0 +1,154 @@
+Python: 
+
+high level interpreter programming Language 
+
+1. natural Language->
+2. High - level language -> python 
+3. low  level  - it is close to computer hardware
+4. machine - binary 
+
+
+how python Work
+---------------
+- python is partially interpreted
+
+code -> converts into bytecode(complier)-> bytecode is excute by interpreter (PVM) python  virtual Machine -> convert machineLevel
+
+Support cross platform 
+
+why python?
+------------
+- Easy to Learn 
+- open source 
+- support crossplatform
+- huge Community 
+
+
+variable: 
+
+-- used to store Value 
+
+Data type:
+----------
+data types help  python to understand what kind of operation we can perform 
+
+In python : 
+everything takes as Object 
+
+
+Primitive and non primitive 
+---------------------------
+primitive ->  single value stored in a variable
+non primitive -> collection or multiple value stored in single variable  list,tuple, set,dictionary
+
+
+python types classified 
+1. Numeric Data  (int , float, complex) 
+2. Sequence  (string,list,tuple,range)
+3. Mapping (dict)
+4. set 
+5. Boolean  (True / False)
+6. None Type 
+7. Binary 
+ 
+
+list:
+-----
+
+1. it denoted by square bracket 
+2. it is mutable  (Changable)
+3. it allow duplicate 
+4. it is ordered 
+5. it may contain hetrogenous value
+
+
+2. Tuple
+---------
+1. denoted by () 
+2. immutable (can't change)
+3. it allow duplicate 
+4. it is ordered 
+5. hetrogenous
+
+3. set.
+
+1. denoted by { }
+2. mutable
+3. it does not allow duplicate value.
+4. it is unordered 
+5. it support hetrogenous 
+6. Hashable 
+
+var=set()
+
+frozenset (immutable)
+
+4.Dict
+--------
+- key value pair.
+- key must be unique (immutable)
+- value can be anything and allow duplicate  
+-  denoted by {}
+
+
+int 
+- immutable 
+- it accept whole number  with (positive and negative symbol)
+eg: 10,-10,+20
+
+float
+- immutable 
+- posivite and negative symbol
+
+str
+- immutable
+- enclosed by '' , "" , ''' '''
+
+
+
+type conversion
+----------------
+
+- converting one data type to another data type 
+- converting str to int 
+
+type: 
+1. implicit type conversion (automatic)
+1. Explicit type conversion (manual)
+
+Conversion rule:
+1. cannot convert non-numeric string into integer
+
+
+truthy and falsy
+---------------- 
+    - every object has Boolean value 
+    - it return True / False
+
+    Falsy: 0,0.0,"",[],(),{}
+
+
+
+
+
+
+<!-- 
+immutable data type:
+------------------- -->
+tuple
+int
+str
+float
+Boolean
+
+mutable
+-------
+List
+set 
+dictionary
+
+
+
+
+
+
