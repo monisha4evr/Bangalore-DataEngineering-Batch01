@@ -1,0 +1,111 @@
+Python
+------
+
+high level interpreted programmming Language 
+
+
+ 
+
+
+Advantages:
+- Easy syntax.
+- Less code compared to many languages.
+- Huge community support.
+- Large number of libraries.
+- Useful for automation.
+- Useful for Data Analytics and Data Engineering.
+- Cross-platform support.
+
+
+Disadvantages:
+- Slower execution compared to many compiled languages.
+- Higher memory consumption in some use cases.
+- Not ideal for certain resource-intensive applications.
+- Dynamic typing can cause runtime errors.
+
+
+Applications:
+- Web Development
+- Data Analytics
+- Data Science
+- Machine Learning
+- Artificial Intelligence
+- Automation
+- Data Engineering
+- Software Development
+- Testing
+
+Python working environments 
+These are tools/environments used to write and execute Python code.
+1. IDLE
+IDLE is a basic development environment for Python.
+It comes along with the standard Python installation.
+We can write, execute and test Python programs using IDLE.
+It is mainly useful for beginners to learn Python.
+
+2. Jupyter Notebook
+- Interactive coding environment.
+- Code cell-by-cell execute 
+- Output same notebook-la display aagum.
+- Markdown, charts, visualizations support pannum.
+- Data Analytics and Data Science-ku useful.
+
+3. Google Colab
+- Browser-based notebook environment.
+- Installation generally not required.
+- Google account use panni access pannalam.
+- Google Drive integration.
+- Cloud runtime-la code execute pannalam.
+- Data Science and ML-ku useful. 
+
+4. VS Code
+- Code editor.
+- Python extension install pannanum.
+- Python interpreter configure pannanum.
+- .py files create panni execute pannalam.
+- Debugging and extensions support.
+- Professional development-ku useful.
+
+
+1. What is a Compiler?
+Definition: A compiler is a program that translates source code into machine code or another lower-level form before execution.
+
+Important points:
+- Translates the program before execution.
+- Usually processes the program as a whole.
+- Reports compilation errors.
+- Compiled output can be executed later.
+- Examples: C, C++ (commonly compiled languages).
+
+2. What is an Interpreter?
+Definition: An interpreter executes a program by processing its instructions at runtime.
+
+Important points:
+- Executes code during runtime.
+- Often processes instructions incrementally.
+- Reports errors when the problematic code is reached.
+- Does not necessarily create a standalone executable file.
+- Python is commonly described as an interpreted language.
+
+3. Compiler vs Interpreter
+Compiler	                    Interpreter
+Translates before execution	    Executes during runtime
+Usually processes the whole     program	Often processes incrementally
+May generate executable output	Usually executes through runtime
+Compilation errors reported 	Runtime errors can appear during execution
+   before execution
+Example: C, C++	                Example: Python, JavaScript
+
+
+Important technical point for students:
+
+Python is commonly called an interpreted language. But internally, standard Python implementation (CPython) does more than directly interpret source code.
+
+Execution flow:
+1. We write Python source code.
+2. Python checks and compiles it into bytecode.
+3. Python Virtual Machine (PVM) executes that bytecode.
+4. We get the output.
+
+1. What is Cross-Platform Support?
+Definition: Cross-platform means a program can run on different operating systems with little or no modification to its source code.

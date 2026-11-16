@@ -1,0 +1,105 @@
+Programming Questions
+1. Electricity Bill Calculator (3 Marks)
+
+Write a Python program to calculate an electricity bill based on the following units:
+- First 100 units – ₹2 per unit
+- Next 100 units – ₹3 per unit
+- Next 100 units – ₹5 per unit
+- Above 300 units – ₹7 per unit
+Display the total electricity bill.
+
+2. Find the Largest Number (3 Marks)
+
+Write a Python program to find the largest among three numbers without using the max() function.
+
+If all three numbers are equal, display "All numbers are equal".
+
+3. Student Grade Calculator (3 Marks)
+
+Write a Python program to calculate a student's grade based on the following marks:
+- 90–100: Grade A
+- 80–89: Grade B
+- 70–79: Grade C
+- 60–69: Grade D
+- 40–59: Grade E
+- Below 40: Fail
+If the entered mark is below 0 or above 100, display "Invalid Marks".
+
+4. Leap Year Checker (3 Marks)
+
+Write a Python program to check whether a given year is a leap year or not.
+
+Conditions:
+- A year divisible by 400 is a leap year.
+- A year divisible by 100 but not by 400 is not a leap year.
+- A year divisible by 4 but not by 100 is a leap year.
+5. ATM Withdrawal System (3 Marks)
+
+Write a Python program to simulate an ATM withdrawal.
+
+Conditions:
+- Initial balance = ₹10,000.
+- Withdrawal amount must be greater than zero.
+- Withdrawal amount must be a multiple of 100.
+- If the amount is greater than the balance, display "Insufficient Balance".
+- Otherwise, deduct the amount and display the remaining balance.
+6. Triangle Validity and Type (3 Marks)
+
+Write a Python program to accept three sides of a triangle.
+
+First, check whether the given sides can form a valid triangle.
+
+Condition: The sum of any two sides must be greater than the third side.
+
+If valid, identify the triangle type:
+- Equilateral
+- Isosceles
+- Scalene
+7. Login Authentication (3 Marks)
+
+Write a Python program to validate a login system.
+
+Given:
+- Correct username: "admin"
+- Correct password: "Python@123"
+Conditions:
+- If both username and password are correct, display "Login Successful".
+- If username is incorrect, display "Invalid Username".
+- If password is incorrect, display "Invalid Password".
+- If both are incorrect, display "Invalid Username and Password".
+8. Income Tax Calculator (3 Marks)
+
+Write a Python program to calculate income tax based on annual income.
+- Up to ₹3,00,000 – No tax
+- ₹3,00,001 to ₹6,00,000 – 5%
+- ₹6,00,001 to ₹9,00,000 – 10%
+- ₹9,00,001 to ₹12,00,000 – 15%
+- Above ₹12,00,000 – 20%
+Calculate tax only on the income falling within each slab.
+
+9. Online Shopping Discount (3 Marks)
+
+Write a Python program to calculate the final shopping amount.
+
+Discount conditions:
+- Purchase below ₹1,000 – No discount
+- ₹1,000 to ₹4,999 – 5% discount
+- ₹5,000 to ₹9,999 – 10% discount
+- ₹10,000 and above – 20% discount
+Additional condition:
+
+- If the customer is a premium member, provide an extra 5% discount on the amount after the first discount.
+
+Display the final amount.
+
+10. Number Classification (3 Marks)
+
+Write a Python program to accept an integer and classify it.
+
+Conditions:
+- If the number is positive and divisible by both 3 and 5, display "Positive and Divisible by Both".
+- If divisible only by 3, display "Divisible by 3".
+- If divisible only by 5, display "Divisible by 5".
+- If positive but not divisible by either, display "Positive Number".
+- If negative, display "Negative Number".
+- If zero, display "Zero".
