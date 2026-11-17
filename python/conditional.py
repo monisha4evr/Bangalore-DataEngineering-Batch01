@@ -167,4 +167,14 @@ Syntax: value_if_true if condition else value_if_flase
 a=46 
 print( " Even Number" if a %2==0  else " Odd Number" )
 
+match case 
 
+
+day= "mon"
+match day :
+    case "mon" | "tues" | "wed" |"thurs"|"fri" |"sat" : 
+        print(" its a Week day")
+    case "sun":
+        print ("Its Weekend")
+    case _ :
+        print("invalid Day")
