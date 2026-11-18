@@ -188,6 +188,8 @@ for i in range(1,4): #[1,2,3]
         print("*",end=" ")
     print()
 
+
+
 step 1: 
 i =1 
     j=0  * 
@@ -212,3 +214,123 @@ print(a*5)
 
 a=[1,2,3,4]
 print(a*2)
+
+
+A 
+AB 
+ABC 
+
+
+ASCII - American Standard code for information interchange
+
+chr()
+ord()
+
+
+print(chr(65+0))
+print(ord('a'))
+
+
+for i in range(1,4): #[1,2,3]
+    for j in range(i): #[0]  [0,1] [0,1,2]
+        print(chr(65+i),end=" ")
+    print()
+
+A 
+AB 
+ABC 
+
+
+
+
+# 1 nithila
+# 2 shyam 
+# 3 sai 
+
+
+a= ['nithila','shyam','sai']
+counter=1
+for i in a:
+    print(counter,i)
+    counter+=1
+
+enumerate()
+
+a= ['nithila','shyam','sai']
+for i,v in enumerate(a,start=1):
+    print(i,v)
+
+zip ()
+
+a= ['nithila','shyam','sai']
+b= ['chennai','bangalore','Hydrabad','Andra']
+c= [99,99,98]
+
+# print(a+b+c)
+
+print(zip(a,b,c))
+
+print(list(zip(a,b,c)))
+
+
+iterator: 
+
+1. iter()
+2. next()
+
+a=[1,2,3,4,5]
+
+res=iter(a)
+print(next(res))
+print(next(res))
+
+# generator 
+
+# 1. yield()
+# 2. next()
+
+1. break   # break the loop
+2. continue  # skip the current Iteration
+3. pass 
+
+for i in range(1,10):
+    if i == 5:
+        print("i am ten")
+        break
+    print(i)
+else:
+    print("Loop ends here")
+print("Loop ended")
+
+for i in range(1,10):
+    if i == 5:
+        print("i am ten")
+        
+    print(i)
+else:
+    print("Loop ends here")
+print("Loop ended")
+
+
+
+for i in range(1,10):
+   
+    if i == 5:
+        continue
+    print(i)   
+
+pass 
+
+for i in range(1,4):
+    pass
+
+print("welcome")
+
+
+
+1. find even numbers in list  
+2. remove duplicate from list 
+3. sum the odd numbers in list 
+4. find vowels in str 
+5. count the vowels and consonents
+
